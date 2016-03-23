@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		661A8DA21C9C25AF00139B27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661A8DA11C9C25AF00139B27 /* AppDelegate.swift */; };
+		661A8DA41C9C25AF00139B27 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661A8DA31C9C25AF00139B27 /* ViewController.swift */; };
+		661A8DA71C9C25AF00139B27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 661A8DA51C9C25AF00139B27 /* Main.storyboard */; };
+		661A8DA91C9C25AF00139B27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 661A8DA81C9C25AF00139B27 /* Assets.xcassets */; };
+		661A8DAC1C9C25AF00139B27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 661A8DAA1C9C25AF00139B27 /* LaunchScreen.storyboard */; };
+		661A8DBB1CA2390100139B27 /* BeatButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661A8DB91CA2390100139B27 /* BeatButton.swift */; };
+		661A8DBC1CA2390100139B27 /* random_sound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 661A8DBA1CA2390100139B27 /* random_sound.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		661A8D9E1C9C25AF00139B27 /* SoundButtons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundButtons.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		661A8DA11C9C25AF00139B27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		661A8DA31C9C25AF00139B27 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		661A8DA61C9C25AF00139B27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		661A8DA81C9C25AF00139B27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		661A8DAB1C9C25AF00139B27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		661A8DAD1C9C25AF00139B27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		661A8DB91CA2390100139B27 /* BeatButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeatButton.swift; sourceTree = "<group>"; };
+		661A8DBA1CA2390100139B27 /* random_sound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = random_sound.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		661A8D9B1C9C25AF00139B27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		661A8D951C9C25AF00139B27 = {
+			isa = PBXGroup;
+			children = (
+				661A8DA01C9C25AF00139B27 /* SoundButtons */,
+				661A8D9F1C9C25AF00139B27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		661A8D9F1C9C25AF00139B27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				661A8D9E1C9C25AF00139B27 /* SoundButtons.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		661A8DA01C9C25AF00139B27 /* SoundButtons */ = {
+			isa = PBXGroup;
+			children = (
+				661A8DBA1CA2390100139B27 /* random_sound.wav */,
+				661A8DB91CA2390100139B27 /* BeatButton.swift */,
+				661A8DA11C9C25AF00139B27 /* AppDelegate.swift */,
+				661A8DA31C9C25AF00139B27 /* ViewController.swift */,
+				661A8DA51C9C25AF00139B27 /* Main.storyboard */,
+				661A8DA81C9C25AF00139B27 /* Assets.xcassets */,
+				661A8DAA1C9C25AF00139B27 /* LaunchScreen.storyboard */,
+				661A8DAD1C9C25AF00139B27 /* Info.plist */,
+			);
+			path = SoundButtons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		661A8D9D1C9C25AF00139B27 /* SoundButtons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 661A8DB01C9C25AF00139B27 /* Build configuration list for PBXNativeTarget "SoundButtons" */;
+			buildPhases = (
+				661A8D9A1C9C25AF00139B27 /* Sources */,
+				661A8D9B1C9C25AF00139B27 /* Frameworks */,
+				661A8D9C1C9C25AF00139B27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoundButtons;
+			productName = SoundButtons;
+			productReference = 661A8D9E1C9C25AF00139B27 /* SoundButtons.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		661A8D961C9C25AF00139B27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Pascal Rettig";
+				TargetAttributes = {
+					661A8D9D1C9C25AF00139B27 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = PNZTA279GK;
+					};
+				};
+			};
+			buildConfigurationList = 661A8D991C9C25AF00139B27 /* Build configuration list for PBXProject "SoundButtons" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 661A8D951C9C25AF00139B27;
+			productRefGroup = 661A8D9F1C9C25AF00139B27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				661A8D9D1C9C25AF00139B27 /* SoundButtons */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		661A8D9C1C9C25AF00139B27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				661A8DAC1C9C25AF00139B27 /* LaunchScreen.storyboard in Resources */,
+				661A8DBC1CA2390100139B27 /* random_sound.wav in Resources */,
+				661A8DA91C9C25AF00139B27 /* Assets.xcassets in Resources */,
+				661A8DA71C9C25AF00139B27 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		661A8D9A1C9C25AF00139B27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				661A8DBB1CA2390100139B27 /* BeatButton.swift in Sources */,
+				661A8DA41C9C25AF00139B27 /* ViewController.swift in Sources */,
+				661A8DA21C9C25AF00139B27 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		661A8DA51C9C25AF00139B27 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				661A8DA61C9C25AF00139B27 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		661A8DAA1C9C25AF00139B27 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				661A8DAB1C9C25AF00139B27 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		661A8DAE1C9C25AF00139B27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		661A8DAF1C9C25AF00139B27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		661A8DB11C9C25AF00139B27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = SoundButtons/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cykod.buttonpressertest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		661A8DB21C9C25AF00139B27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = SoundButtons/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cykod.buttonpressertest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		661A8D991C9C25AF00139B27 /* Build configuration list for PBXProject "SoundButtons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				661A8DAE1C9C25AF00139B27 /* Debug */,
+				661A8DAF1C9C25AF00139B27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		661A8DB01C9C25AF00139B27 /* Build configuration list for PBXNativeTarget "SoundButtons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				661A8DB11C9C25AF00139B27 /* Debug */,
+				661A8DB21C9C25AF00139B27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 661A8D961C9C25AF00139B27 /* Project object */;
+}
